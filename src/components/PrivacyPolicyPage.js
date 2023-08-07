@@ -16,11 +16,12 @@ const PrivacyPolicyPage = () => {
         animate={{ opacity: 1, y: 0 }}
         className='text-gray-400 text-justify max-w-lg mx-auto mb-6'
       >
-        At Chef Kabs, we are committed to protecting your privacy and ensuring
-        the security of your personal information. This Privacy Policy outlines
-        how we collect, use, disclose, and protect your data when you interact
-        with our Customer Satisfaction Survey and related services. By using our
-        services, you consent to the practices described in this policy.
+        At Pasta Express, we are committed to protecting your privacy and
+        ensuring the security of your personal information. This Privacy Policy
+        outlines how we collect, use, disclose, and protect your data when you
+        interact with our Customer Satisfaction Survey and related services. By
+        using our services, you consent to the practices described in this
+        policy.
         <br />
         <br />
         <strong>1. Information Collection and Use:</strong> We may collect
@@ -81,8 +82,8 @@ const PrivacyPolicyPage = () => {
         <br />
         <br />
         By using our Customer Satisfaction Survey and related services, you
-        agree to the terms of this Privacy Policy. Thank you for trusting Chef
-        Kabs with your feedback and personal information.
+        agree to the terms of this Privacy Policy. Thank you for trusting Pasta
+        express with your feedback and personal information.
       </motion.p>
     </div>
   );
