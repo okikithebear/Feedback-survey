@@ -1,0 +1,19 @@
+# netlify.toml
+
+# Build settings
+[build]
+  # Directory where the built files are located
+  publish = "build/" # Adjust this path based on your project structure
+
+  # Command to build your project
+  command = "npm run build" # Adjust this based on your project's build command
+
+# Redirects
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy-policy.html" # Adjust this based on your project's route
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
