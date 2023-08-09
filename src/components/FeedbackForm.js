@@ -179,7 +179,7 @@ const FeedbackForm = ({ onFormSubmit }) => {
                     {...field}
                     value={field.value || ''}
                     onChange={field.onChange}
-                    className='border px-2 py-1 w-full rounded h-32 hover:ring-4 ring-mustard text-gray-700'
+                    className='border px-2 py-1 w-full rounded h-32 sm:hover:ring-4 sm:ring-mustard text-gray-700'
                     placeholder='Please tell us here'
                   />
                 )}
@@ -327,11 +327,11 @@ const FeedbackForm = ({ onFormSubmit }) => {
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }} // Adjust animation duration as needed
+            transition={{ duration: 0.5 }}
           >
             <div className='flex flex-col items-center space-y-2'>
               <img
-                src='/path-to-your-logo.png' // Replace with the actual path to your logo image
+                src='/path-to-your-logo.png'
                 alt='Logo'
                 className='h-12 w-12 object-contain'
               />

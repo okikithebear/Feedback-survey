@@ -18,7 +18,7 @@ const OrderPlacementInput = ({ orderPlacement, onChange }) => {
       <select
         value={orderPlacement}
         onChange={(e) => onChange(e.target.value)}
-        className='px-2 py-1 border rounded hover:ring-4 ring-mustard sm:w-full text-sm'
+        className='px-2 py-1 border rounded sm:hover:ring-4 sm:ring-mustard sm:w-full text-sm'
       >
         <option value=''>Select order placement...</option>
         {options.map((option) => (
