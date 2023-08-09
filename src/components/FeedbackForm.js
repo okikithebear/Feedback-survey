@@ -179,7 +179,7 @@ const FeedbackForm = ({ onFormSubmit }) => {
                     {...field}
                     value={field.value || ''}
                     onChange={field.onChange}
-                    className='border px-2 py-1 w-full rounded h-32 sm:hover:ring-4 sm:ring-mustard text-gray-700'
+                    className='border px-2 py-1 w-full rounded h-32 sm:hover:ring-3 sm:ring-mustard text-gray-700'
                     placeholder='Please tell us here'
                   />
                 )}
