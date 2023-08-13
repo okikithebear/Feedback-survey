@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { motion } from 'framer-motion';
 import TextInput from './TextInput';
@@ -13,7 +13,6 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
 import PastaImage from '../images/brandlogo.JPG';
-import { FaRegAddressBook } from 'react-icons/fa';
 
 import { submitFeedback } from './api';
 
