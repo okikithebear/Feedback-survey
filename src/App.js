@@ -35,14 +35,14 @@ const App = () => {
                       <motion.h2
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className='text-2xl font-bold mb-2 text-green-600'
+                        className='text-2xl font-bold mb-2 sm:text-lg text-green-600'
                       >
                         Thank you for your feedback!
                       </motion.h2>
                       <motion.p
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className='text-gray-700'
+                        className='text-white'
                       >
                         We value your input and strive to improve our services,
                         Love Chef Kabs!
