@@ -7,7 +7,7 @@ module.exports = {
         mustard: '#FFDB58',
       },
       fontFamily: {
-        custom: ['Lobster', 'sans-serif'],
+        custom: ['Poppins', 'sans-serif'],
       },
     },
   },

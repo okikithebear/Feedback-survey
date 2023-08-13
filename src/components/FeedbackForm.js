@@ -12,6 +12,7 @@ import { FiUser, FiMail, FiPhone } from 'react-icons/fi';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
+import PastaImage from '../images/brandlogo.JPG';
 import { FaRegAddressBook } from 'react-icons/fa';
 
 import { submitFeedback } from './api';
@@ -330,12 +331,20 @@ const FeedbackForm = ({ onFormSubmit }) => {
             transition={{ duration: 0.5 }}
           >
             <div className='flex flex-col items-center space-y-2'>
-              <img
-                src='/path-to-your-logo.png'
+              <motion.img
+                src={PastaImage}
                 alt='Logo'
-                className='h-12 w-12 object-contain'
+                className='h-24 w-24 object-contain'
+                animate={{
+                  scale: [1, 1.1, 1], // Scale values for the heartbeat animation
+                  transition: {
+                    repeat: Infinity,
+                    duration: 1,
+                    ease: 'easeInOut',
+                  },
+                }}
               />
-              <p className='text-white  md:text-lg text-sm text-center'>
+              <p className='text-white md:text-lg text-sm text-center'>
                 All rights reserved © Powered by Pasta Express Limited
               </p>
             </div>

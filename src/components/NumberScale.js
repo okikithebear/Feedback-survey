@@ -9,10 +9,9 @@ const NumberScale = ({ value, onRatingChange }) => {
     onRatingChange(number);
   };
 
-  // Define your custom colors here
-  const redColor = '#FF0000'; // Replace with your desired red color
-  const yellowColor = '#FFFF00'; // Replace with your desired yellow color
-  const greenColor = '#00FF00'; // Replace with your desired green color
+  const redColor = '#FF0000';
+  const yellowColor = '#FFFF00';
+  const greenColor = '#00FF00';
 
   let backgroundColor;
   if (selectedValue >= 1 && selectedValue <= 3) {
@@ -39,11 +38,12 @@ const NumberScale = ({ value, onRatingChange }) => {
           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((number) => (
             <motion.div
               key={number}
-              className='flex-1 sm:border-r border-black flex items-center justify-center'
+              className='flex-1 sm:border-r border-black border-2 flex items-center justify-center'
               style={{
                 backgroundColor:
                   selectedValue >= number ? backgroundColor : 'white',
                 cursor: 'pointer',
+                userSelect: 'none',
               }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

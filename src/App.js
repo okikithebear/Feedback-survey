@@ -18,7 +18,7 @@ const App = () => {
           transition={{ duration: 1 }}
           className='max-w-2xl w-full p-12 mt-6 mb-6 bg-black border border-mustard rounded shadow-lg'
         >
-          <header className='text-2xl font-bold mb-6 text-center text-white'>
+          <header className='text-2xl font-custom font-bold mb-6 text-center text-mustard'>
             Customer Satisfaction Survey
           </header>
 
